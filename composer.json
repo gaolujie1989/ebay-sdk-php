@@ -1,6 +1,6 @@
 {
-    "name": "benmorel/ebay-sdk-php",
-    "description": "An eBay SDK for PHP. Fork of dts/ebay-sdk-php with support for PHP 8.",
+    "name": "gaolujie1989/ebay-sdk-php",
+    "description": "Fork of benmorel/ebay-sdk-php, An eBay SDK for PHP. Fork of dts/ebay-sdk-php with support for PHP 8.",
     "keywords": ["ebay", "api", "sdk"],
     "type": "library",
     "license": "(Apache-2.0 and MIT)",
@@ -20,8 +20,8 @@
         "ext-curl": "*",
         "ext-libxml": "*",
         "guzzlehttp/guzzle": "^6.0 || ^7.0",
-        "guzzlehttp/psr7": "^1.0",
-        "guzzlehttp/promises": "^1.1"
+        "guzzlehttp/psr7": "^1.0|^2.0",
+        "guzzlehttp/promises": "^1.1|^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0 || ^9.0"
